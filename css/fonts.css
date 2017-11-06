@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'PeaceSans';
+    src: url('../fonts/PeaceSans/PeaceSans.eot');
+    src: url('../fonts/PeaceSans/PeaceSans.eot') format('embedded-opentype'),
+         url('../fonts/PeaceSans/PeaceSans.woff2') format('woff2'),
+         url('../fonts/PeaceSans/PeaceSans.woff') format('woff'),
+         url('../fonts/PeaceSans/PeaceSans.ttf') format('truetype'),
+         url('../fonts/PeaceSans/PeaceSans.svg#PeaceSans') format('svg');
+}
