@@ -7,6 +7,18 @@ $(document).ready(function(){
     $(this).addClass('active2')
   });
 
+  $(".popup").magnificPopup({type:"image"});
+  $(".popup_content").magnificPopup({
+    type:"inline",
+    midClick: true
+  });
+
+  $(".portfolio_item").each(function(i) {
+    $(this).find("button").attr("href", "#work_" + i);
+    $(this).find(".podrt_descr").attr("id", "work_" + i);
+  });
+
+
   $('.top_text h1').animated('fadeInDown', 'fadeOutUp');
   $('.animated_up').animated('fadeInUp', 'fadeOutDown');
   $('.animated_left').animated('fadeInLeft', 'fadeOutLeft');
